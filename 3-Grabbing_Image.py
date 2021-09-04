@@ -12,3 +12,4 @@ image_link = requests.get('https://upload.wikimedia.org/wikipedia/commons/thumb/
 f = open('my_computer_image.jpg', 'wb')
 f.write(image_link.content)
 f.close()
+
